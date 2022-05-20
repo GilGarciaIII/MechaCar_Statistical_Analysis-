@@ -3,17 +3,19 @@
 ### Linear Regress to Predict MPG
 ###The purpose of this analysis was to:
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
 ![Image_1](https://user-images.githubusercontent.com/88943257/169451637-c8c1ca6f-df07-4401-a41a-216b37a74b98.PNG)
 
 Weight,spolier and angle, AWD provided a non random amount of variance. 
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
+
 ![Image_2](https://user-images.githubusercontent.com/88943257/169452923-6c27d3d1-b050-47ea-9e2b-254f2d0e4d3f.PNG)
+
 Slope is not at zero, looking at p-valiue which is under 0.05
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? 
-
-    Our R-squared value is 71%, which means roughly 71% of the time the model will predict the mpg values on correct terms. Simple way to help is to incres the size of the module data. 
+Our R-squared value is 71%, which means roughly 71% of the time the model will predict the mpg values on correct terms. Simple way to help is to incres the size of the module data. 
 
 ![Image_2](https://user-images.githubusercontent.com/88943257/169453120-7fa9ffb8-253a-454a-8d25-e61da42b11e1.PNG)
 
